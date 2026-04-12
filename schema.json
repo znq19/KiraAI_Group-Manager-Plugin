@@ -1,0 +1,32 @@
+{
+  "admin_qq_list": {
+    "name": "管理员QQ列表",
+    "type": "list",
+    "default": [],
+    "hint": "管理员QQ号列表，只有这些用户可以使用群管功能"
+  },
+  "enable_kick_user": {
+    "name": "启用踢人功能",
+    "type": "switch",
+    "default": false,
+    "hint": "【高危】是否允许踢出群成员，默认关闭"
+  },
+  "enable_whole_ban": {
+    "name": "启用全员禁言",
+    "type": "switch",
+    "default": false,
+    "hint": "【高危】是否允许全员禁言，默认关闭"
+  },
+  "auto_check_admin": {
+    "name": "自动检查管理员",
+    "type": "switch",
+    "default": true,
+    "hint": "是否自动检查Bot是否为群管理员"
+  },
+  "log_operations": {
+    "name": "记录操作日志",
+    "type": "switch",
+    "default": true,
+    "hint": "是否记录群管操作日志"
+  }
+}
